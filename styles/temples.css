@@ -1,0 +1,130 @@
+:root {
+    --primary-color: #2B2D42; 
+    --secondary-color: #ffffff;
+    --accent-color: #ff69b4;
+    --text-color: #333;
+    --bg-color: #f4f4f4;
+    --font-main: 'Play', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Hamburger Button */
+#menu {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+/* Navigation - Mobile */
+nav {
+    display: none;
+    background-color: #330066;
+}
+
+nav.show {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation li a {
+    display: block;
+    padding: 1rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.navigation li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+}
+
+figure {
+    background: white;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    padding: 10px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}

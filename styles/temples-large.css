@@ -1,0 +1,22 @@
+/* Desktop View */
+#menu {
+    display: none; /* Hide hamburger */
+}
+
+nav {
+    display: block !important;
+    background: none;
+}
+
+.navigation {
+    flex-direction: row;
+}
+
+.header-container {
+    padding: 0;
+}
+
+/* Gallery Grid for Large Screens */
+.gallery {
+    grid-template-columns: repeat(3, 1fr); /* 3 Columns */
+}
