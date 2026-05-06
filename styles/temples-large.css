@@ -1,22 +1,27 @@
 /* Desktop View */
+
+@media screen and (min-width: 768px) {
+ 
 #menu {
-    display: none; /* Hide hamburger */
+    display: none; 
 }
 
-nav {
-    display: block !important;
-    background: none;
-}
+   nav {
+        display: flex; 
+        max-height: none; 
+        background: none;
+    }
 
 .navigation {
     flex-direction: row;
-}
+  }
 
-.header-container {
-    padding: 0;
-}
+  .header-container {
+      padding: 0;
+  }
 
-/* Gallery Grid for Large Screens */
-.gallery {
-    grid-template-columns: repeat(3, 1fr); /* 3 Columns */
+  /* Gallery Grid for Large Screens */
+  .gallery {
+      grid-template-columns: repeat(3, 1fr); 
+  }
 }
