@@ -1,0 +1,277 @@
+:root {
+
+--primary:#0a1f30;
+--secondary:#3b3939;
+--dark:#333;
+--light:#f4f4f4;
+--white:#ffffff;
+--orange: #e3ac14;
+--navy: #08234b;;
+--banana-cream: #F7EE7F;
+--radius:8px;
+
+}
+
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* --- HEADER --- */
+
+header {
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: center;
+}
+
+#course-title {
+  display: block;
+  padding: 1.5rem;
+  font-family: 'Play', sans-serif;
+  font-size: 1.3rem;
+}
+
+
+/* ---Navigation---- */
+
+nav {
+  background-color: var(--dark);
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  overflow: auto;
+}
+
+nav a {
+  color: var(--light);
+  text-decoration: none;
+  padding: 0.75rem;
+  transition: 0.3s ease;
+  width: 25%;
+  font-family: 'Play', sans-serif;
+}
+
+nav a:hover {
+  background-color: var(--orange);
+  color: var(--dark);
+  font-weight: bold;
+  
+}
+
+/* --- MAIN --- */
+
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+h1 {
+text-align:center;
+margin-bottom:20px;
+}
+
+
+/* ----GRID LAYOUT--- */
+
+.cards {
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:20px;
+}
+
+
+/* ----CARD STYLE---- */
+
+.card {
+border-radius:var(--radius);
+box-shadow:0 2px 6px rgba(0,0,0,0.2);
+overflow:hidden;
+}
+
+.card h2 {
+background:var(--secondary);
+color:var(--white);
+padding:10px;
+text-align:center;
+font-family: 'Play', sans-serif;
+}
+
+.card p {
+line-height:1.2;
+font-size: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----ABOUT SECTION---- */
+
+.about {
+display:flex;
+gap:20px;
+padding:20px;
+}
+
+.about img {
+width:252px;
+border-radius:var(--radius);
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* ----COUNTRY---- */
+
+.card h3 {
+text-align:center;
+margin-top:10px;
+}
+
+.country {
+display:flex;
+gap:20px;
+padding:20px;
+align-items:center;
+}
+
+.country img {
+width:200px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+figure {
+text-align:center;
+}
+
+figcaption {
+font-size:0.9rem;
+color: var(--dark);
+margin-top:5px;
+font-style:italic;
+}
+
+
+
+/* ----RESOURCES---- */
+
+ul {
+padding:20px;
+margin-left: 20px;
+}
+
+li {
+margin-bottom:10px;
+}
+
+li a {
+color:var(--navy);
+text-decoration:underline;
+font-size: 18px;
+}
+
+li a:hover {
+text-decoration:underline;
+color: var(--primary);
+}
+
+
+/* -----FOOTER----- */
+
+footer {
+background:var(--primary);
+color:var(--white);
+text-align:center;
+padding:0.938rem;
+margin-top:20px;
+font-family: 'Play', sans-serif;
+}
+
+#lastModified {
+  color: var(--banana-cream);
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* ---- TABLET VIEW -----*/
+@media (max-width: 768px) {
+
+.cards {
+grid-template-columns: 1fr;
+}
+
+nav {
+flex-wrap: wrap;
+}
+
+nav a {
+width: 50%;
+text-align: center;
+}
+
+.about {
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.country {
+flex-direction: column;
+text-align: center;
+}
+
+.about img,
+.country img {
+width: 80%;
+max-width: 300px;
+}
+
+main {
+margin: 1rem;
+}
+
+}
+
+/* ---- MOBILE VIEW ---- */
+
+@media (max-width: 480px) {
+
+#course-title {
+font-size: 1.1rem;
+}
+
+nav {
+flex-direction: column;
+}
+
+nav a {
+width: 100%;
+border-bottom: 1px solid #555;
+}
+
+h1 {
+font-size: 1.5rem;
+}
+
+.card {
+margin-bottom: 1rem;
+}
+
+.about,
+.country {
+padding: 1rem;
+}
+
+.about img,
+.country img {
+width: 100%;
+}
+
+ul {
+padding: 1rem;
+}
+
+}
