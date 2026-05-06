@@ -4,16 +4,7 @@ const nav = document.querySelector(".navigation");
 
 hamburger.addEventListener("click", () => {
   nav.classList.toggle("show");
-  
-  // Toggle the 'open' class on the button to change the symbol via CSS or textContent
   hamburger.classList.toggle("open");
-  
-  // Use 'X' to close the menu and '☰' to open it
-  if (hamburger.classList.contains("open")) {
-    hamburger.textContent = "X"; 
-  } else {
-    hamburger.textContent = "☰";
-  }
 });
 
 // Dynamic Copyright Year for the Footer[cite: 1]

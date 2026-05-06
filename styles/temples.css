@@ -42,6 +42,14 @@ header {
     cursor: pointer;
 }
 
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
 /* Navigation - Mobile */
 nav {
     display: flex; 
