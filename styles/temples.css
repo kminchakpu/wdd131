@@ -48,8 +48,7 @@ header {
     display: flex; 
     flex-direction: column;
     background-color: #330066;
-    display: none; 
-}
+  }
 
 /* Class added by JS to show the menu */
 #primary-nav.open {
