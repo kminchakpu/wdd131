@@ -1,16 +1,19 @@
-// JavaScript for the Responsive Hamburger Menu
-const hamburger = document.querySelector("#menu"); 
-const nav = document.querySelector(".navigation"); 
+// Select elements based on your provided HTML[cite: 1]
+const hamburger = document.querySelector("#hamburger");
+const nav = document.querySelector("#primary-nav");
 
 hamburger.addEventListener("click", () => {
-  nav.classList.toggle("show");
-  hamburger.classList.toggle("open");
+    nav.classList.toggle("open");
+    
+    // Toggle symbol: X for close, ☰ for open[cite: 1]
+    if (nav.classList.contains("open")) {
+        hamburger.textContent = "X";
+    } else {
+        hamburger.textContent = "☰";
+    }
 });
 
-// Dynamic Copyright Year for the Footer[cite: 1]
-const currentYear = new Date().getFullYear();
-document.getElementById("currentyear").textContent = currentYear;
+// Footer Logic[cite: 1]
+document.getElementById("currentyear").textContent = new Date().getFullYear();
+document.getElementById("lastModified").textContent = `Last Modification: ${document.lastModified}`;
 
-// Last Modified Date for the Footer[cite: 1]
-document.getElementById("lastModified").textContent = 
-  `Last Modification: ${document.lastModified}`;

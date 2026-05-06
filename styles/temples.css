@@ -22,71 +22,61 @@ body {
 header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 1rem;
 }
 
-.header-container {
+.header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
+    padding: 1.5rem;
 }
 
-/* Hamburger Button */
-#menu {
-    font-size: 2rem;
+.site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#hamburger {
     background: none;
     border: none;
-    color: var(--secondary-color);
+    color: white;
+    font-size: 2rem;
     cursor: pointer;
 }
 
-#menu::before {
-    content: "☰";
-}
-
-#menu.open::before {
-    content: "X";
-}
-
-/* Navigation - Mobile */
-nav {
+#primary-nav {
     display: flex; 
-    background-color: #330066;
-    flex-direction: column; 
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-}
-
-nav.show {
-    display: block;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-.navigation {
-    list-style: none;
-    display: flex;
     flex-direction: column;
-    width: 100%;
-    list-style: none;
+    background-color: #330066;
+    display: none; 
 }
 
-.navigation li a {
+/* Class added by JS to show the menu */
+#primary-nav.open {
+    display: flex;
+}
+
+#primary-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#primary-nav ul li a {
     display: block;
     padding: 1rem;
-    color: var(--secondary-color);
+    color: white;
     text-decoration: none;
     text-align: center;
     font-size: 1.2rem;
 }
 
-.navigation li a:hover {
+#primary-nav ul li a:hover, 
+#primary-nav ul li a.active {
+    background-color: var(--nav-hover);
+}
+
+#primary-nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 

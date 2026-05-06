@@ -1,27 +1,29 @@
 /* Desktop View */
 
 @media screen and (min-width: 768px) {
- 
-#menu {
-    display: none; 
-}
+    #hamburger {
+        display: none; 
+    }
 
-   nav {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+    #primary-nav {
         display: flex; 
-        max-height: none; 
         background: none;
     }
 
-.navigation {
-    flex-direction: row;
-  }
+    #primary-nav ul {
+        display: flex; 
+    }
 
-  .header-container {
-      padding: 0;
-  }
-
-  /* Gallery Grid for Large Screens */
-  .gallery {
-      grid-template-columns: repeat(3, 1fr); 
-  }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
 }
