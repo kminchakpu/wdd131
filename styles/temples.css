@@ -149,3 +149,37 @@ footer {
     padding: 2rem;
     margin-top: 2rem;
 }
+
+/* Mobile View Defaults */
+@media (max-width: 768px) {
+    #primary-nav {
+        display: none; 
+    }
+
+    #primary-nav.open {
+        display: block; 
+    }
+
+    /* Style the button */
+    #hamburger {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 769px) {
+    #hamburger {
+        display: none; 
+    }
+    #primary-nav {
+        display: block; 
+    }
+    #primary-nav ul {
+        display: flex; 
+        list-style: none;
+    }
+}
