@@ -2,6 +2,7 @@
     --primary-color: #2B2D42; 
     --secondary-color: #ffffff;
     --accent-color: #ff69b4;
+    --nav-hover: #FDFFFC;
     --text-color: #333;
     --bg-color: #f4f4f4;
     --font-main: 'Play', sans-serif;
@@ -45,14 +46,14 @@ header {
 }
 
 #primary-nav {
-    display: flex; 
+    display: none; 
     flex-direction: column;
-    background-color: #330066;
-  }
+    background-color: #333;
+}
 
 /* Class added by JS to show the menu */
 #primary-nav.open {
-    display: flex;
+    display: flex; 
 }
 
 #primary-nav ul {
@@ -70,49 +71,74 @@ header {
     font-size: 1.2rem;
 }
 
-#primary-nav ul li a:hover, 
-#primary-nav ul li a.active {
-    background-color: var(--nav-hover);
-}
-
 #primary-nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+#primary-nav ul li a:hover, 
+#primary-nav ul li a.active { 
+    background-color: var(--nav-hover);
+    color: var(--text-color);
+}
+
+
 /* Main Content */
 main {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 
-h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
+main h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--text-color);
+  padding-bottom: 0.5rem;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 20px;
+
+/* Temple Grid Layout */
+#temples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
 }
 
-figure {
-    background: white;
-    border: 1px solid #ddd;
-    text-align: center;
+/* Temple Card */
+#temples section {
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
 }
 
-figure img {
-    width: 100%;
-    height: auto;
-    display: block;
+#temples section:hover {
+  transform: scale(1.02);
 }
 
-figcaption {
-    padding: 10px;
-    font-weight: bold;
-    color: var(--primary-color);
+/* Temple Text */
+#temples h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#temples p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
+
+/* Temple Images */
+#temples img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* Footer */

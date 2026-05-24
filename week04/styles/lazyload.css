@@ -1,0 +1,62 @@
+/* Core Page Reset & Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #121212; 
+    color: #ffffff;
+    text-align: center;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+/* Image Column Styles */
+img {
+    display: block;
+    width: 400px;
+    height: 600px;
+    max-width: 100%; 
+    height: auto; 
+    margin: 2rem auto; 
+    background-color: #000000; 
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    
+    /* Animation Assignment */
+    animation: fadeFromBlack 1.5s ease-out forwards;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 4rem;
+    padding: 2rem;
+    border-top: 1px solid #333;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
+
+/* Fade-From-Black Animation Keyframes */
+@keyframes fadeFromBlack {
+    0% {
+        opacity: 0;
+        filter: brightness(0);
+    }
+    100% {
+        opacity: 1;
+        filter: brightness(1);
+    }
+}
