@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1620" width="100%" height="100%" style="background-color: #f8f9fa;">
+  <rect x="15" y="15" width="1070" height="1590" rx="6" fill="#ffffff" stroke="#7f8c8d" stroke-width="2" />
+  
+  <text x="1070" y="32" font-family="monospace" font-size="10" fill="#a0aec0" text-anchor="end" font-weight="bold">DESKTOP WIREFRAME MATRIX // WDD 131 PROJECT</text>
+
+  <g transform="translate(40, 45)">
+    <rect x="0" y="0" width="1020" height="34" fill="#1a1a2e" rx="3" />
+    <text x="15" y="21" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="bold">
+      PHONE: +2348068133269   |   EMAIL: info@thebloodline.org
+    </text>
+    
+    <rect x="0" y="44" width="1020" height="64" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5" rx="4" />
+    <text x="20" y="84" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="#8b0000" letter-spacing="-0.5">The Bloodline</text>
+    
+    <g font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3748" text-anchor="middle">
+      <text x="560" y="81">Home</text>
+      <text x="625" y="81">About</text>
+      <text x="695" y="81">Articles</text>
+      <text x="770" y="81">Teachings</text>
+      <text x="855" y="81">Doctrines</text>
+      <text x="940" y="81">Contact</text>
+    </g>
+    <rect x="980" y="62" width="24" height="26" fill="#8b0000" rx="3" />
+    <text x="992" y="79" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" font-weight="bold" text-anchor="middle">➔</text>
+  </g>
+
+  <g transform="translate(40, 165)">
+    <rect x="0" y="0" width="1020" height="340" fill="#2c3e50" rx="4" />
+    
+    <rect x="0" y="0" width="480" height="340" fill="#34495e" opacity="0.8" rx="4" />
+    <line x1="0" y1="0" x2="480" y2="340" stroke="#2c3e50" stroke-width="1.5" stroke-dasharray="6" />
+    <line x1="0" y1="340" x2="480" y2="0" stroke="#2c3e50" stroke-width="1.5" stroke-dasharray="6" />
+    <circle cx="240" cy="170" r="45" fill="none" stroke="#2c3e50" stroke-width="2" stroke-dasharray="4" />
+    <text x="240" y="174" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#bdc3c7" text-anchor="middle">[ focal visual placeholder ]</text>
+
+    <text x="520" y="110" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#ffffff">Support a causes</text>
+    <text x="520" y="155" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#ffffff">you care about</text>
+    
+    <text x="520" y="205" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e0" font-weight="500">Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet pulvinar</text>
+    <text x="520" y="225" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e0" font-weight="500">ante tempor etiam lacus eros.</text>
+    
+    <rect x="520" y="260" width="140" height="42" rx="21" fill="#8b0000" />
+    <text x="590" y="286" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Active Causes</text>
+  </g>
+
+  <g transform="translate(40, 535)">
+    <g transform="translate(0, 20)">
+      <rect x="0" y="0" width="430" height="290" fill="#e2e8f0" stroke="#cbd5e0" stroke-width="1.5" rx="4" />
+      <line x1="0" y1="0" x2="430" y2="290" stroke="#cbd5e0" stroke-width="1" />
+      <line x1="0" y1="290" x2="430" y2="0" stroke="#cbd5e0" stroke-width="1" />
+      <rect x="145" y="125" width="140" height="40" fill="#ffffff" stroke="#cbd5e0" rx="2" />
+      <text x="215" y="149" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#718096" text-anchor="middle">SUPPORT</text>
+    </g>
+
+    <g transform="translate(480, 20)">
+      <text x="0" y="32" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#1a1a2e">Who we are?</text>
+      <text x="0" y="80" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4a5568">Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet pulvinar ante tempor etiam lacus eros.</text>
+      <text x="0" y="125" font-family="Arial, sans-serif" font-size="14" fill="#718096" font-weight="500">The legal definition of a charitable organization (and of charity) varies between countries</text>
+      <text x="0" y="145" font-family="Arial, sans-serif" font-size="14" fill="#718096" font-weight="500">and in some instances regions of the country. The regulation, the tax treatment,</text>
+      <text x="0" y="165" font-family="Arial, sans-serif" font-size="14" fill="#718096" font-weight="500">and the way in which charity law affects charitable organizations also vary.</text>
+      
+      <rect x="0" y="210" width="130" height="42" rx="21" fill="#8b0000" />
+      <text x="65" y="236" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Learn More</text>
+    </g>
+  </g>
+
+  <g transform="translate(40, 885)">
+    <text x="510" y="30" font-family="Arial, sans-serif" font-size="26" font-weight="900" fill="#1a1a2e" text-anchor="middle">Causes we are serving</text>
+    
+    <g transform="translate(0, 65)">
+      <rect x="0" y="0" width="235" height="230" fill="#ffffff" stroke="#cbd5e0" stroke-width="1.5" rx="4" />
+      <rect x="10" y="10" width="215" height="120" fill="#edf2f7" rx="2" />
+      <line x1="10" y1="10" x2="225" y2="130" stroke="#e2e8f0" />
+      <text x="15" y="154" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1a1a2e">The ecosystems</text>
+      <text x="15" y="174" fill="#718096" font-family="Arial, sans-serif" font-size="12">aliquet, fringilla odio eget.</text>
+      <rect x="180" y="195" width="45" height="22" rx="11" fill="#edf2f7" />
+      <text x="202" y="210" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#8b0000" text-anchor="middle">70%</text>
+    </g>
+
+    <g transform="translate(262, 65)">
+      <rect x="0" y="0" width="235" height="230" fill="#ffffff" stroke="#cbd5e0" stroke-width="1.5" rx="4" />
+      <rect x="10" y="10" width="215" height="120" fill="#edf2f7" rx="2" />
+      <line x1="10" y1="10" x2="225" y2="130" stroke="#e2e8f0" />
+      <text x="15" y="154" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1a1a2e">Sponsor a child</text>
+      <text x="15" y="174" fill="#718096" font-family="Arial, sans-serif" font-size="12">Sedac odio aliquet, fringilla.</text>
+      <rect x="180" y="195" width="45" height="22" rx="11" fill="#edf2f7" />
+      <text x="202" y="210" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#8b0000" text-anchor="middle">85%</text>
+    </g>
+
+    <g transform="translate(524, 65)">
+      <rect x="0" y="0" width="235" height="230" fill="#ffffff" stroke="#cbd5e0" stroke-width="1.5" rx="4" />
+      <rect x="10" y="10" width="215" height="120" fill="#edf2f7" rx="2" />
+      <line x1="10" y1="10" x2="225" y2="130" stroke="#e2e8f0" />
+      <text x="15" y="154" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1a1a2e">Help senior citizens</text>
+      <text x="15" y="174" fill="#718096" font-family="Arial, sans-serif" font-size="12">Sectac odio aliquet, fringilla.</text>
+      <rect x="180" y="195" width="45" height="22" rx="11" fill="#edf2f7" />
+      <text x="202" y="210" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#8b0000" text-anchor="middle">60%</text>
+    </g>
+
+    <g transform="translate(785, 65)">
+      <rect x="0" y="0" width="235" height="230" fill="#ffffff" stroke="#cbd5e0" stroke-width="1.5" rx="4" />
+      <rect x="10" y="10" width="215" height="120" fill="#edf2f7" rx="2" />
+      <line x1="10" y1="10" x2="225" y2="130" stroke="#e2e8f0" />
+      <text x="15" y="154" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1a1a2e">Help the community</text>
+      <text x="15" y="174" fill="#718096" font-family="Arial, sans-serif" font-size="12">Sedac odio aliquet layout.</text>
+      <rect x="180" y="195" width="45" height="22" rx="11" fill="#edf2f7" />
+      <text x="202" y="210" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#8b0000" text-anchor="middle">95%</text>
+    </g>
+  </g>
+
+  <g transform="translate(40, 1210)">
+    <g transform="translate(0, 10)">
+      <text x="0" y="32" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#1a1a2e">Join with Us</text>
+      <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" fill="#718096" font-weight="500">The legal definition of a charitable organization (and of charity) varies</text>
+      <text x="0" y="95" font-family="Arial, sans-serif" font-size="14" fill="#718096" font-weight="500">between countries and in some instances regions of the country.</text>
+      <text x="0" y="115" font-family="Arial, sans-serif" font-size="14" fill="#718096" font-weight="500">The regulation, the tax treatment, and the way.</text>
+      
+      <rect x="0" y="155" width="130" height="42" rx="21" fill="#8b0000" />
+      <text x="65" y="181" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Join Now</text>
+    </g>
+
+    <g transform="translate(540, 10)">
+      <rect x="0" y="0" width="230" height="200" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5" rx="4" />
+      <line x1="0" y1="0" x2="230" y2="200" stroke="#cbd5e0" />
+      
+      <rect x="250" y="0" width="230" height="200" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5" rx="4" />
+      <line x1="250" y1="0" x2="480" y2="200" stroke="#cbd5e0" />
+    </g>
+  </g>
+
+  <g transform="translate(40, 1460)">
+    <rect x="0" y="0" width="1020" height="120" fill="#1a1a2e" rx="4" />
+    
+    <g font-family="Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="500">
+      <text x="20" y="32" font-size="16" font-weight="900" fill="#ffffff">The Bloodline</text>
+      <text x="20" y="60" fill="#a0aec0">EMAIL: info@thebloodline.org</text>
+      <text x="20" y="80" fill="#a0aec0">PHONE: +2348068133269</text>
+    </g>
+
+    <g transform="translate(250, 0)" font-family="Arial, sans-serif" font-size="12" fill="#a0aec0" font-weight="bold">
+      <text x="0" y="32" fill="#ffffff">Navigation</text>
+      <text x="0" y="58" font-weight="500">Home</text>
+      <text x="0" y="76" font-weight="500">About</text>
+      <text x="0" y="94" font-weight="500">Contact</text>
+    </g>
+
+    <g transform="translate(420, 0)" font-family="Arial, sans-serif" font-size="11.5" fill="#a0aec0" font-weight="500">
+      <text x="0" y="32" font-size="12" font-weight="bold" fill="#ffffff">Services</text>
+      <text x="0" y="58">Lorem ipsum dolor sit amet,</text>
+      <text x="0" y="74">consectetur adipiscing elit.</text>
+      <text x="0" y="90">Seddo eiusmod tempor incidi.</text>
+    </g>
+
+    <g transform="translate(660, 0)" font-family="Arial, sans-serif" font-size="11.5" fill="#a0aec0" font-weight="500">
+      <text x="0" y="32" font-size="12" font-weight="bold" fill="#ffffff">Subscribe newsletter</text>
+      <text x="0" y="54" fill="#a0aec0">Subscribe our newsletter to get updates about</text>
+      <text x="0" y="68" fill="#a0aec0">our services and offers.</text>
+      <rect x="0" y="78" width="180" height="28" rx="14" fill="#2d3748" stroke="#4a5568" />
+      <text x="14" y="96" font-size="11" fill="#718096">Enter your email</text>
+      <circle cx="166" cy="92" r="11" fill="#8b0000" />
+      <text x="166" y="96" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">➔</text>
+    </g>
+
+    <g transform="translate(1000, 0)" font-family="Arial, sans-serif" font-size="11.5" fill="#ffffff" text-anchor="end" font-weight="500">
+      <text x="0" y="45" fill="#a0aec0">WDD 131 Final Project | Kevin Cross Minchakpu</text>
+      <text x="0" y="70" font-size="11" fill="#ffffff" font-weight="bold">The Bloodline Wireframes</text>
+      <text x="0" y="94" font-size="10" fill="#a0aec0" font-weight="bold">Last Modification: 10/21/202X 22:12:35</text>
+    </g>
+  </g>
+</svg>
