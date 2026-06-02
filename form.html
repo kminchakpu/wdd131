@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Review Form | Kevin Cross Minchakpu</title>
+<meta name="description" content="Product Review Form | Kevin Cross Minchakpu | Submit your review for our product">
+<meta name="author" content="Kevin Cross Minchakpu">
+<link rel="stylesheet" href="styles/form.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<script src="scripts/form.js" defer></script>
+<script src="scripts/getdates.js" defer></script>
+
+</head>
+<body>
+
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main class="container">
+        <form method="get" action="review.html">
+            
+            <div class="form-group">
+                <label for="product-name">Product Name</label>
+                <select id="product-name" name="product-name" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Overall Rating</label>
+                <div class="rating-group">
+                    <div class="rating-item">
+                        <label for="star1"><span>&star;</span></label>
+                        <input type="radio" id="star1" name="rating" value="1" required>
+                    </div>
+                    <div class="rating-item">
+                        <label for="star2"><span>&star;&star;</span></label>
+                        <input type="radio" id="star2" name="rating" value="2" required>
+                    </div>
+                    <div class="rating-item">
+                        <label for="star3"><span>&star;&star;&star;</span></label>
+                        <input type="radio" id="star3" name="rating" value="3" required>
+                    </div>
+                    <div class="rating-item">
+                        <label for="star4"><span>&star;&star;&star;&star;</span></label>
+                        <input type="radio" id="star4" name="rating" value="4" required>
+                    </div>
+                    <div class="rating-item">
+                        <label for="star5"><span>&star;&star;&star;&star;&star;</span></label>
+                        <input type="radio" id="star5" name="rating" value="5" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="install-date">Date of Installation</label>
+                <input type="date" id="install-date" name="install-date" required>
+            </div>
+
+            <div class="form-group">
+                <label>Which features did you find useful? <br><small><i>(Check all that apply)</i></small></label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="durability" name="features" value="durability"> Durability</label>
+                    <label><input type="checkbox" id="ease" name="features" value="ease-of-use"> Ease of Use</label>
+                    <label><input type="checkbox" id="performance" name="features" value="performance"> Performance</label>
+                    <label><input type="checkbox" id="design" name="features" value="design"> Design</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="review">Written Review <span class="optional">(Optional)</span></label>
+                <textarea id="review" name="review" rows="5"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="user-name">Your Name <span class="optional">(Optional)</span></label>
+                <input type="text" id="user-name" name="user-name">
+            </div>
+
+            <input type="submit" value="Post Review" class="submit-btn">
+        </form>
+    </main>
+
+<!--Footer-->
+<footer>
+<p>© <span id="currentyear">
+</span> 🌸 Kevin Cross Minchakpu 🌸 Abuja, Nigeria</p>
+<p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
