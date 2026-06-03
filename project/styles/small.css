@@ -207,7 +207,6 @@ a {
     justify-content: flex-end;
 }
 
-
 .hero-content {
     max-width: 550px;   
     color: #ffffff;
@@ -227,7 +226,10 @@ a {
     font-size: 1.15rem;
     line-height: 1.5;
     margin-bottom: 35px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 25px;                              
+    color: #ffffff;                                
+    max-width: 600px;
 }
 
 .btn {
@@ -297,78 +299,102 @@ a {
     margin-bottom: 15px;
 }
 
-/* --- Causes Grid Section --- */
-.causes-section {
-    background-color: var(--card-bg);
-    padding: 60px 0;
-}
+/* --- Featured Articles --- */
 
 .section-title {
     text-align: center;
     font-size: 2.2rem;
-    margin-bottom: 40px;
-    color: var(--primary-color);
+    color: #1e293b;
+    margin-bottom: 35px;
 }
 
-.causes-grid {
+.articles-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    /* Responsive fallback configurations for Mobile & Tablets */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-.cause-card {
-    background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-.cause-card img {
+.article-card img {
     width: 100%;
     height: 180px;
     object-fit: cover;
 }
 
-.card-body {
-    padding: 15px;
+.article-card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    min-height: 440px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    justify-content: flex-end;
+    padding: 16px;
+    box-sizing: border-box;
 }
 
-.card-body h3 {
-    font-size: 1.1rem;
-    margin-bottom: 8px;
-    color: var(--primary-color);
+.article-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.16);
 }
 
-.card-body p {
-    font-size: 0.9rem;
-    margin-bottom: 15px;
-    flex-grow: 1;
-}
-
-.progress-container {
-    text-align: right;
-}
-
-.progress-label {
+.category-badge {
     display: inline-block;
-    background-color: var(--bg-color);
-    border: 1px solid var(--border-color);
-    padding: 2px 8px;
-    font-size: 0.75rem;
-    font-weight: bold;
-    border-radius: 10px;
-    color: var(--secondary-color);
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    padding: 3px 8px;
+    border-radius: 4px;
 }
 
-/* Dynamic Priority Highlight Rules from JS logic */
-.cause-card.high-priority {
-    border-color: var(--accent-color);
+/* Card Bottom Controls Wrapper */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    padding: 10px 12px;
+    border-radius: 8px;
+    box-sizing: border-box;
 }
+
+/* Profiles Alignment */
+.author-profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.author-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+}
+
+.author-name {
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90px; /* Safeguard long names from breaking button layouts */
+}
+
 
 /* --- Join Call to Action Section --- */
 .join-section {
