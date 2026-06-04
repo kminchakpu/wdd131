@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p><strong>Your Review:</strong> <em>"${review}"</em></p>
                 <p><strong>Submitted by:</strong> ${userName}</p>
             </div>
-            <div class="counter-box" style="margin-top: 20px; padding: 10px; border-top: 2px dashed var(--input-border); text-align: center;">
+            <div class="counter-box">
                 <p><strong>Total Product Reviews Submitted:</strong> ${reviewCount}</p>
             </div>
         `;

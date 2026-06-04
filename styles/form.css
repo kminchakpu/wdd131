@@ -162,3 +162,12 @@ footer p {
     color: var(--text-optional);
     border-color: var(--text-optional);
 }
+
+
+.counter-box {
+    margin-top: 20px;
+    padding: 10px;
+    background: var(--primary-color);
+    text-align: center;
+    color: var(--white-color);
+}
