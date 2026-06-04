@@ -105,6 +105,19 @@ textarea {
     cursor: pointer;
 }
 
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.checkbox-item label {
+    font-weight: normal;
+    margin-bottom: 0; 
+    cursor: pointer;
+}
+
 input[type="checkbox"] {
     width: 20px;
     height: 20px;
@@ -170,4 +183,39 @@ footer p {
     background: var(--primary-color);
     text-align: center;
     color: var(--white-color);
+}
+
+/* --- Media Query for Mobile and Tablet Devices --- */
+@media screen and (max-width: 768px) {
+    header, footer {
+        width: 100%;
+        padding: 1.2rem 1rem;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 100%;
+        margin: 15px auto;
+        padding: 15px;
+    }
+
+    .rating-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .rating-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .rating-item span {
+        margin-bottom: 0;
+    }
+
+    .submit-btn {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
 }
