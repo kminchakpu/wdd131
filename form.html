@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Product Review Form | Kevin Cross Minchakpu</title>
-<meta name="description" content="Product Review Form | Kevin Cross Minchakpu | Submit your review for our product">
-<meta name="author" content="Kevin Cross Minchakpu">
-<link rel="stylesheet" href="styles/form.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-<script src="scripts/form.js" defer></script>
-<script src="scripts/getdates.js" defer></script>
-<script src="scripts/review.js" defer></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form | Kevin Cross Minchakpu</title>
+    <meta name="description" content="Product Review Form | Kevin Cross Minchakpu | Submit your review for our product">
+    <meta name="author" content="Kevin Cross Minchakpu">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght=300;400;600&display=swap" rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
 
@@ -65,10 +63,22 @@
             <div class="form-group">
                 <label>Which features did you find useful? <br><small><i>(Check all that apply)</i></small></label>
                 <div class="checkbox-group">
-                    <label><input type="checkbox" id="durability" name="features" value="durability"> Durability</label>
-                    <label><input type="checkbox" id="ease" name="features" value="ease-of-use"> Ease of Use</label>
-                    <label><input type="checkbox" id="performance" name="features" value="performance"> Performance</label>
-                    <label><input type="checkbox" id="design" name="features" value="design"> Design</label>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="durability" name="features" value="durability">
+                        <label for="durability">Durability</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="ease" name="features" value="ease-of-use">
+                        <label for="ease">Ease of Use</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="performance" name="features" value="performance">
+                        <label for="performance">Performance</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="design" name="features" value="design">
+                        <label for="design">Design</label>
+                    </div>
                 </div>
             </div>
 
@@ -86,12 +96,10 @@
         </form>
     </main>
 
-<!--Footer-->
-<footer>
-<p>© <span id="currentyear">
-</span> 🌸 Kevin Cross Minchakpu 🌸 Abuja, Nigeria</p>
-<p id="lastModified"></p>
-</footer>
+    <footer>
+        <p>© <span id="currentyear"></span> 🌸 Kevin Cross Minchakpu 🌸 Abuja, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
 
 </body>
 </html>
