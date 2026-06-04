@@ -29,11 +29,27 @@ const products = [
 
 document.addEventListener("DOMContentLoaded", () => {
     const selectElement = document.getElementById("product-name");
+    const reviewForm = document.querySelector("form");
 
-    products.forEach(product => {
-        const option = document.createElement("option");
-        option.value = product.name; // Requirements state value should be product name
-        option.textContent = product.name;
-        selectElement.appendChild(option);
-    });
+    // Populate product options safely
+    if (selectElement) {
+        products.forEach(product => {
+            const option = document.createElement("option");
+            option.value = product.name; 
+            option.textContent = product.name;
+            selectElement.appendChild(option);
+        });
+    }
+
+    // Handle localStorage tracking on form submission
+    if (reviewForm) {
+        reviewForm.addEventListener("submit", () => {
+            // Retrieve existing review count or default to 0
+            let numReviews = Number(localStorage.getItem("reviewCount")) || 0;
+            
+            // Increment and store the updated counter
+            numReviews += 1;
+            localStorage.setItem("reviewCount", numReviews.toString());
+        });
+    }
 });

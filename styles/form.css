@@ -126,7 +126,8 @@ input[type="checkbox"] {
 }
 
 .submit-btn:hover {
-    background-color: #e8e8e8;
+    background-color: #181717;
+    color: #fff;
 }
 
 footer p {
