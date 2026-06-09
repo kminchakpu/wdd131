@@ -1,36 +1,34 @@
 document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("featured-articles-container");
 
-    // Core Functionality: Track page visits using localStorage
+    // 1. Storage Tracking Function
     function updatePageTracking() {
-        const currentViewsRaw = localStorage.getItem("featuredPageViews");
+        const currentViewsRaw = localStorage.getItem("articlesPageViews");
         let currentViews = 0;
 
-        // Conditional branching to evaluate localStorage data
         if (currentViewsRaw) {
             currentViews = parseInt(currentViewsRaw, 10);
         }
 
         currentViews += 1;
-        localStorage.setItem("featuredPageViews", currentViews.toString());
+        localStorage.setItem("articlesPageViews", currentViews.toString());
     }
 
-    // DOM & Array Methods: Generate cards strictly using template literals
-    function renderArticleCards(articles) {
+    // 2. Main Render Engine
+    function renderAllCards(articles) {
         if (!container) return;
 
-        // Clear out any lingering content placeholders
         container.innerHTML = "";
 
-        // Use array map method to loop smoothly through your articles
-        // Exclusively uses template literals for the HTML output string
         const cardsHtml = articles.map((article) => {
             return `
-                <article class="article-card" style="background-image: url('${article.image}');">
-                    <div class="hero-text-box">
+                <article class="article-card">
+                    <img src="${article.image}" alt="${article.title}" class="card-image-cap" loading="lazy">
+                    
+                    <div class="card-body">
                         <span class="category-badge">${article.category}</span>
-                        <h1>${article.title}</h1>
-                        <p>${article.description}</p>
+                        <h3 class="article-title">${article.title}</h3>
+                        <p class="article-description">${article.description}</p>
                     </div>
                     
                     <div class="card-footer">
@@ -38,37 +36,34 @@ document.addEventListener("DOMContentLoaded", () => {
                             <img src="${article.authorImage}" alt="${article.authorName}" class="author-avatar" loading="lazy">
                             <span class="author-name">${article.authorName}</span>
                         </div>
-                        <a href="${article.link}" class="btn-primary">${article.buttonText}</a>
+                        <a href="${article.link}" class="btn-primary">Read Article</a>
                     </div>
                 </article>
             `;
         }).join("");
 
-        // Inject the complete markup block into the DOM
         container.innerHTML = cardsHtml;
     }
 
-    // Execution Flow
+    // 3. Executing Flow
     updatePageTracking();
 
     if (container) {
-        // Looks for the data folder sitting in the project root
         fetch("data/articles.json")
             .then((response) => {
                 if (!response.ok) {
-                    throw new Error("Network response was not ok. Could not load articles.");
+                    throw new Error("Network error encountered. Could not load articles data.");
                 }
                 return response.json();
             })
             .then((articles) => {
-                // Passes the processed array over to the rendering engine
-                renderArticleCards(articles);
+                renderAllCards(articles);
             })
             .catch((error) => {
-                console.error("Error operationalizing data fetch:", error);
+                console.error("Operational fetch issue:", error);
                 container.innerHTML = `
                     <div class="error-msg">
-                        <p>Unable to load our featured articles list at this moment. Please refresh the page.</p>
+                        <p>Unable to load our articles list at this moment. Please refresh the page.</p>
                     </div>
                 `;
             });

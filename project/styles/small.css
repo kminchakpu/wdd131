@@ -323,124 +323,127 @@ a {
     gap: 25px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 16px; 
+    padding: 0 16px;
     box-sizing: border-box;
 }
 
-/* Article Card Main Layout */
+/* The Vertical Stacked Card Structure */
 .article-card {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 14px;
-    min-height: 440px;
+    background-color: #1e2530; 
+    border: 1px solid #2d3748;
+    border-radius: 8px; 
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    padding: 16px;
-    box-sizing: border-box;
+    justify-content: space-between;
+    min-height: 480px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Card Hover Animation */
 .article-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.24);
 }
 
-/* Text Box Wrapper  */
-.hero-text-box {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
-    padding: 16px;
-    border-radius: 10px;
-    color: #ffffff;
+
+.card-image-cap {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid #2d3748;
 }
 
-.hero-text-box h1 {
-    font-size: 1.4rem;
-    margin: 8px 0;
-    line-height: 1.3;
+/* Core Content Body Area */
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-family: system-ui, -apple-system, sans-serif;
 }
 
-.hero-text-box p {
-    font-size: 0.9rem;
-    margin: 0;
-    opacity: 0.9;
-}
-
-/* Category Badge Styling */
 .category-badge {
-    display: inline-block;
-    background-color: #2563eb;
+    align-self: flex-start;
+    background-color: #2563eb; 
     color: #ffffff;
     font-size: 0.7rem;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.5px;
     padding: 3px 8px;
     border-radius: 4px;
+    margin-bottom: 12px;
 }
 
-/* Glassmorphism Card Bottom Controls Footer */
+.article-title {
+    color: #ffffff; 
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 0 10px 0;
+}
+
+.article-description {
+    color: #94a3b8; 
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Card Bottom Footer Container */
 .card-footer {
+    border-top: 1px solid #2d3748; 
+    padding: 14px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    padding: 10px 12px;
-    border-radius: 8px;
-    box-sizing: border-box;
-    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.15);
+    font-family: system-ui, -apple-system, sans-serif;
 }
 
-/* Author Profiling Layout */
+/* Footer Left-Side Elements */
 .author-profile {
     display: flex;
     align-items: center;
     gap: 8px;
+    overflow: hidden;
 }
 
-
-.author-profile .author-avatar {
-    width: 32px;
-    height: 32px;
+.author-avatar {
+    width: 26px;
+    height: 26px;
     border-radius: 50%;
     object-fit: cover;
-    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    flex-shrink: 0;
 }
 
 .author-name {
-    color: #ffffff;
+    color: #94a3b8; 
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 90px; 
+    max-width: 110px;
 }
 
-/* Action Link Styles */
+/* Footer Right-Side Link Control */
 .btn-primary {
-    background-color: #ffffff;
-    color: #1e293b;
-    padding: 6px 14px;
-    border-radius: 6px;
+    color: #3b82f6; 
     text-decoration: none;
     font-size: 0.8rem;
     font-weight: 600;
-    transition: background-color 0.2s ease;
+    transition: color 0.2s ease;
+    white-space: nowrap;
 }
 
 .btn-primary:hover {
-    background-color: #f1f5f9;
+    color: #60a5fa;
+    text-decoration: underline;
 }
-
 
 /* --- Join Call to Action Section --- */
 .join-section {
@@ -586,4 +589,241 @@ a {
     padding: 14px 32px;
     border-radius: 50px; 
     transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* About Page Specific Styles */
+.about-section {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+    padding: 5rem;
+    background-color: var(--primary-color);
+}
+
+.about-image img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+    border-radius: 1.5rem;
+}
+
+.about-content {
+    color: var(--white);
+}
+
+.section-tag {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-family: var(--nav-font);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+.about-content h2 {
+    margin-bottom: 1.5rem;
+    font-family: var(--headings-font);
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.1;
+}
+
+.about-content p {
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border: 2px solid var(--accent-color);
+    border-radius: 50px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: var(--nav-font);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.beliefs-section {
+    background-color: var(--primary-color);
+    padding: 6rem 5%;
+}
+
+.beliefs-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.beliefs-header h2 {
+    font-family: var(--headings-font);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.beliefs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.8rem;
+}
+
+.belief-card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+
+.belief-card:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.belief-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: rgba(214, 158, 46, 0.15);
+    color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.belief-card h3 {
+    color: var(--white);
+    font-family: var(--headings-font);
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.belief-card p {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .beliefs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.teachings-section {
+    background-color: var(--primary-color);
+    padding: 6rem 5%;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-header h2 {
+    color: var(--white);
+    font-family: var(--headings-font);
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+}
+
+.section-header p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.2rem;
+}
+
+.teachings-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.teaching-card {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.teaching-card:hover {
+    transform: translateY(-8px);
+}
+
+.teaching-image {
+    height: 220px;
+    overflow: hidden;
+}
+
+.teaching-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.teaching-card:hover .teaching-image img {
+    transform: scale(1.08);
+}
+
+.teaching-content {
+    padding: 1.5rem;
+}
+
+.teaching-series {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    color: var(--accent-color);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.teaching-content h3 {
+    color: var(--white);
+    font-family: var(--headings-font);
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+.teaching-speaker,
+.teaching-date {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.4rem;
+}
+
+.teaching-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: var(--nav-font);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.teaching-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
 }
