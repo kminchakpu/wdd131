@@ -1,0 +1,81 @@
+@media screen and (min-width: 1025px) {
+    
+.header-container {
+        padding: 20px 0;
+    }
+
+    /* Larger logo */
+
+    .logo img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo span {
+        font-size: 2rem;
+    }
+
+    /* Hide hamburger */
+
+    .menu-toggle {
+        display: none;
+    }
+
+    /* Show navigation */
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        background: transparent;
+        border-bottom: none;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .nav-menu a {
+        width: auto;
+        padding: 8px 14px;
+        font-size: 1.25rem;
+        border-radius: 4px;
+        color: var(--text-color);
+        text-decoration: none;
+        font-family: var(--nav-font);
+        font-weight: 400;
+    }
+
+    .nav-menu a:hover,
+    .nav-menu a.active {
+        background-color: var(--primary-color);
+        color: var(--white);
+    }
+
+    /* --- Hero Desktop Adjustments --- */
+    .hero-section {
+        height: 75vh;
+        min-height: 550px;
+        padding: 0;
+    }
+
+    .hero-content-container {
+        justify-content: flex-end; 
+    }
+
+    .hero-content {
+        text-align: left; 
+        max-width: 550px;
+    }
+
+    .hero-content h1 {
+        font-size: 3.8rem;
+        line-height: 1.1;
+        margin-bottom: 20px;
+    }
+
+    .hero-content p.hero-text {
+        font-size: 1.15rem;
+        padding: 25px;
+        margin-bottom: 35px;
+    }
+}
