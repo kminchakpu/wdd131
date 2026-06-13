@@ -1,130 +1,146 @@
 [
   {
     "title": "Personal Peace in Challenging Times",
-    "series": "Faith Over Fear",
+    "series": "General Conference Talk",
     "speaker": "Elder Quentin L. Cook",
     "date": "October 2021",
     "image": "images/teaching-1.jpg",
-    "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/46cook?lang=eng"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/46cook?lang=eng",
+    "description": "Discover how to find inner peace and spiritual fortitude through Jesus Christ, even when navigating the turbulent trials and uncertainties of the modern world."
   },
   {
     "title": "Why Marriage and Family Matter—Everywhere in the World",
-    "series": "Marriage and Family",
+    "series": "General Conference Talk",
     "speaker": "Elder L. Tom Perry",
     "date": "April 2015",
     "image": "images/family3.webp",
-    "url": "https://www.churchofjesuschrist.org/study/general-conference/2015/04/why-marriage-and-family-matter-everywhere-in-the-world?lang=eng"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2015/04/why-marriage-and-family-matter-everywhere-in-the-world?lang=eng",
+    "description": "An insightful message highlighting the vital social, cultural, and spiritual importance of strong, traditional marriages and families across the globe."
   },
   {
-    "title": "Living with Purpose",
-    "series": "Created For More",
-    "speaker": "Pastor Michael Adams",
-    "date": "May 18, 2026",
+    "title": "Spiritual Whirlwinds",
+    "series": "General Conference Talk",
+    "speaker": "Elder Neil L. Andersen",
+    "date": "April 2014",
     "image": "images/teaching-3.jpg",
-    "url": "teachings/living-with-purpose.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/spiritual-whirlwinds?lang=eng",
+    "description": "Learn how to safeguard your mind and household against the powerful spiritual counter-currents and moral storms of our day by anchoring your faith in the Savior."
   },
   {
-    "title": "Grace That Changes Everything",
-    "series": "Amazing Grace",
-    "speaker": "Pastor James Thompson",
-    "date": "May 11, 2026",
+    "title": "The Gift of Grace",
+    "series": "General Conference Talk",
+    "speaker": "President Dieter F. Uchtdorf",
+    "date": "April 2015",
     "image": "images/teaching-4.jpg",
-    "url": "teachings/grace-that-changes-everything.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-gift-of-grace?lang=eng",
+    "description": "A beautiful exploration of God's sublime, enabling power, showing how His divine grace can heal our vulnerabilities and inspire us to improve every day."
   },
   {
     "title": "Establishing a Christ-Centered Home",
-    "series": "Marriage and Family",
+    "series": "General Conference Talk",
     "speaker": "Elder Richard J. Maynes",
     "date": "April, 2011",
     "image": "images/family2.webp",
-    "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/establishing-a-christ-centered-home?lang=eng"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/establishing-a-christ-centered-home?lang=eng",
+    "description": "Practical counsel on designing a peaceful, loving home ecosystem rooted in intentional gospel study, prayer, and shared spiritual devotion."
   },
   {
-    "title": "Trusting God Through Trials",
-    "series": "Faith That Endures",
-    "speaker": "Pastor David Lewis",
-    "date": "April 27, 2026",
+    "title": "All Things for Our Good",
+    "series": "General Conference Talk",
+    "speaker": "Elder Gerrit W. Gong",
+    "date": "April 2024",
     "image": "images/teaching-6.jpg",
-    "url": "teachings/trusting-god-through-trials.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/04/25gong?lang=eng",
+    "description": "A reassuring reminder that through faith in Jesus Christ, our hardships and heartbreaks can ultimately be consecrated for our long-term growth and ultimate good."
   },
   {
-    "title": "The Heart of Worship",
-    "series": "True Worship",
-    "speaker": "Pastor Michael Adams",
-    "date": "April 20, 2026",
+    "title": "When Thou Art Converted",
+    "series": "General Conference Talk",
+    "speaker": "Elder D. Todd Christofferson",
+    "date": "April 2004",
     "image": "images/teaching-7.jpg",
-    "url": "teachings/the-heart-of-worship.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2004/04/when-thou-art-converted?lang=eng",
+    "description": "An exploration of true spiritual conversion, illustrating how internalizing gospel principles transforms our choices, character, and commitments."
   },
   {
-    "title": "Walking in Love",
-    "series": "The Greatest Commandment",
-    "speaker": "Pastor James Thompson",
+    "title": "I Have Given You an Example",
+    "series": "General Conference Talk",
+    "speaker": "Elder Richard G. Scott",
     "date": "April 13, 2026",
     "image": "images/teaching-8.jpg",
-    "url": "teachings/walking-in-love.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/i-have-given-you-an-example?lang=eng",
+    "description": "Examines the power of patterned righteous living, encouraging us to look to the life of Jesus Christ as the absolute blueprint for overcoming mortality's tests."
   },
   {
-    "title": "A Life of Prayer",
-    "series": "Draw Near",
-    "speaker": "Pastor Rachel Kim",
+    "title": "Motions of a Hidden Fire",
+    "series": "General Conference Talk",
+    "speaker": "President Jeffrey R. Holland",
     "date": "April 6, 2026",
     "image": "images/teaching-9.jpg",
-    "url": "teachings/a-life-of-prayer.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/04/13holland?lang=eng",
+    "description": "Delve into the transformative habit of constant, intentional prayer, and see how everyday conversations with God reshape our hearts and family units."
   },
   {
-    "title": "Hope for the Future",
-    "series": "Living Hope",
-    "speaker": "Pastor David Lewis",
-    "date": "March 30, 2026",
+    "title": "What We Are Learning and Will Never Forget",
+    "series": "General Conference Talk",
+    "speaker": "President Russell M. Nelson",
+    "date": "April 2021",
     "image": "images/teaching-10.jpg",
-    "url": "teachings/hope-for-the-future.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/36nelson?lang=eng",
+    "description": "A message designed to banish despair by aligning our vision with eternal expectations, helping families step forward with courage and joyful anticipation."
   },
   {
-    "title": "Overcoming Temptation",
-    "series": "Victory in Christ",
-    "speaker": "Pastor Michael Adams",
-    "date": "March 23, 2026",
+    "title": "Steady in the Storms",
+    "series": "General Conference Talk",
+    "speaker": "President Henry B. Eyring",
+    "date": "April 2022",
     "image": "images/teaching-11.jpg",
-    "url": "teachings/overcoming-temptation.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2022/04/18eyring?lang=eng",
+    "description": "Strategies for establishing real-life defensive boundaries in your household to resist worldly distractions and protect your spiritual peace."
   },
   {
-    "title": "The Gift of Forgiveness",
-    "series": "Freedom",
-    "speaker": "Pastor James Thompson",
-    "date": "March 16, 2026",
+    "title": "The Healing Power of Forgiveness",
+    "series": "General Conference Talk",
+    "speaker": "President James E. Faust",
+    "date": "April 2007",
     "image": "images/teaching-12.jpg",
-    "url": "teachings/the-gift-of-forgiveness.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2007/04/the-healing-power-of-forgiveness?lang=eng",
+    "description": "Unpack the healing power of Christ's Atonement and discover how choosing to forgive can break down emotional walls within deep family relationships."
   },
   {
-    "title": "Faith That Moves Mountains",
-    "series": "Mountain Moving Faith",
-    "speaker": "Pastor Rachel Kim",
-    "date": "March 9, 2026",
+    "title": "The Faith to Move Mountains",
+    "series": "General Conference Talk",
+    "speaker": "President Gordon B. Hinckley",
+    "date": "October 2006",
     "image": "images/teaching-13.jpg",
-    "url": "teachings/faith-that-moves-mountains.html"
+    "url": "teachings/faith-that-moves-mountains.html",
+    "description": "An inspiring breakdown of how active, intentional faith can help individuals dismantle seemingly insurmountable emotional and structural challenges."
   },
   {
-    "title": "Serving with Joy",
-    "series": "Called to Serve",
-    "speaker": "Pastor David Lewis",
-    "date": "March 2, 2026",
+    "title": "Our Heartfelt All",
+    "series": "General Conference Talk",
+    "speaker": "Elder Dieter F. Uchtdorf",
+    "date": "April 2022",
     "image": "images/teaching-14.jpg",
-    "url": "teachings/serving-with-joy.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2022/04/57uchtdorf?lang=eng",
+    "description": "Focuses on the pure happiness that stems from Christlike ministry and selfless service within our neighborhoods, communities, and home circles."
   },
   {
-    "title": "Walking by Faith",
-    "series": "Faith Journey",
-    "speaker": "Pastor Michael Adams",
-    "date": "February 23, 2026",
+    "title": "We Walk by Faith",
+    "series": "General Conference Talk",
+    "speaker": "President Gordon B. Hinckley",
+    "date": "April 2002",
     "image": "images/teaching-15.jpg",
-    "url": "teachings/walking-by-faith.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/we-walk-by-faith?lang=eng",
+    "description": "Guidance on how to consistently make bold, righteous lifestyle choices when the path forward isn't immediately clear to our natural eyes."
   },
   {
-    "title": "The Good Shepherd",
-    "series": "Knowing Jesus",
-    "speaker": "Pastor James Thompson",
-    "date": "February 16, 2026",
+    "title": "Our Good Shepherd",
+    "series": "General Conference Talk",
+    "speaker": "Elder Dale G. Renlund",
+    "date": "April 2017",
     "image": "images/teaching-16.jpg",
-    "url": "teachings/the-good-shepherd.html"
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/04/our-good-shepherd?lang=eng",
+    "description": "A comforting exploration of Jesus Christ's pastoral care, illustrating how He tracks down, heals, and protects those who feel emotionally or spiritually isolated."
   }
 ]

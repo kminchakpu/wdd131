@@ -807,7 +807,7 @@ a {
 .teachings-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .teaching-card {
@@ -862,6 +862,11 @@ a {
 
 .teaching-speaker,
 .teaching-date {
+    color: var(--accent-color);
+    margin-bottom: 0.4rem;
+}
+
+ .teaching-description {
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 0.4rem;
 }

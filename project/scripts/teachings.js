@@ -10,39 +10,43 @@ async function loadTeachings() {
 
         const teachings = await response.json();
 
-     teachingsGrid.innerHTML = teachings
-    .map(
-        teaching => `
-        <article class="teaching-card">
+        teachingsGrid.innerHTML = teachings
+            .map(
+                teaching => `
+                <article class="teaching-card">
 
-            <div class="teaching-image">
-                <img src="${teaching.image}" alt="${teaching.title}">
-            </div>
+                    <div class="teaching-image">
+                        <img src="${teaching.image}" alt="${teaching.title}">
+                    </div>
 
-            <div class="teaching-content">
-                <span class="teaching-series">
-                    ${teaching.series}
-                </span>
+                    <div class="teaching-content">
+                        <span class="teaching-series">
+                            ${teaching.series}
+                        </span>
 
-                <h3>${teaching.title}</h3>
+                        <h3>${teaching.title}</h3>
 
-                <p class="teaching-speaker">
-                    ${teaching.speaker}
-                </p>
+                        <p class="teaching-speaker">
+                            ${teaching.speaker}
+                        </p>
 
-                <p class="teaching-date">
-                    ${teaching.date}
-                </p>
+                        <p class="teaching-date">
+                            ${teaching.date}
+                        </p>
 
-                <a href="${teaching.url}" class="teaching-btn">
-                    Read More
-                </a>
-            </div>
+                        <p class="teaching-description">
+                            ${teaching.description}
+                        </p>
 
-        </article>
-        `
-    )
-    .join("");
+                        <a href="${teaching.url}" class="teaching-btn">
+                            Read More
+                        </a>
+                    </div>
+
+                </article>
+                `
+            )
+            .join("");
 
     } catch (error) {
         console.error(error);

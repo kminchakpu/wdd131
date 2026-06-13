@@ -79,3 +79,201 @@
         margin-bottom: 35px;
     }
 }
+
+/* Responsive Styles for About Intro & Join Sections */
+
+/* Tablet Viewport (Typically 1024px and below) */
+@media (max-width: 1024px) {
+    .about-intro, 
+    .join-section {
+        padding: 60px 20px; 
+    }
+
+    .about-grid, 
+    .join-grid {
+        gap: 30px; 
+    }
+
+    .footer-grid {
+        /* Switch from 4 columns to a 2x2 layout grid */
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding: 0 24px; /* Gives elements structural breathing room on the sides */
+    }
+}
+
+/* Mobile Viewport (Typically 768px and below) */
+@media (max-width: 768px) {
+    /* --- About Intro Section --- */
+    .about-grid {
+        grid-template-columns: 1fr; 
+        gap: 35px;
+    }
+
+    .about-content {
+        text-align: center; 
+    }
+
+    .about-content h2 {
+        font-size: 1.8rem; 
+        margin-bottom: 15px;
+    }
+
+    /* --- Join Section --- */
+    .join-grid {
+        grid-template-columns: 1fr; 
+        gap: 40px;
+    }
+
+    .join-content {
+        text-align: center; 
+    }
+
+    .join-content h2 {
+        font-size: 2rem;
+    }
+
+    .join-visuals {
+        gap: 15px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .main-footer {
+        padding: 40px 0 20px 0; 
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 0 20px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+/* Responsive Styles for About Page (about.html) */
+@media (max-width: 1200px) {
+    .about-section {
+        padding: 4rem 5%; 
+        gap: 2.5rem;     
+    }
+
+    .about-content h2 {
+        font-size: 2.8rem; 
+    }
+
+    .section-header h2 {
+        font-size: 3rem; 
+    }
+    
+    .teachings-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* Tablet Viewport (Typically 1024px and below) */
+@media (max-width: 1024px) {
+    .about-section {
+        grid-template-columns: 1fr; 
+        gap: 3rem;
+        padding: 4rem 10%;
+    }
+
+    .about-image img {
+        height: 400px; 
+    }
+
+    .about-content {
+        text-align: center; 
+    }
+
+    .teachings-section {
+        padding: 5rem 24px; 
+    }
+
+    .teachings-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+
+}
+
+/* Mobile Viewport (Typically 768px and below) */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 3rem 20px; 
+        gap: 2rem;
+    }
+
+    .about-image img {
+        height: 280px; 
+        border-radius: 1rem; 
+    }
+
+    .about-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* --- Beliefs Section --- */
+    .beliefs-section {
+        padding: 4rem 20px;
+    }
+
+    .beliefs-header {
+        margin-bottom: 2.5rem;
+    }
+
+    .beliefs-header h2 {
+        font-size: 2.2rem;
+    }
+
+    .beliefs-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .belief-card {
+        padding: 1.75rem; 
+    }
+
+    .teachings-section {
+        padding: 4rem 20px; 
+    }
+
+    .section-header {
+        margin-bottom: 2.5rem; 
+    }
+
+    .section-header h2 {
+        font-size: 2.2rem; 
+    }
+
+    .section-header p {
+        font-size: 1rem; 
+    }
+
+    .teachings-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .teaching-image {
+        height: 200px; 
+    }
+
+    .teaching-content h3 {
+        font-size: 1.5rem; 
+    }
+}
