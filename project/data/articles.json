@@ -22,7 +22,7 @@
   {
     "id": 3,
     "category": "Healing",
-    "image": "https://picsum.photos/id/364/400/250",
+    "image": "images/teaching-12.webp",
     "title": "The Healing Power of Forgiveness",
     "description": "Learning to let go of friction within the home is the secret glue that binds generations together.",
     "link": "https://www.churchofjesuschrist.org/study/liahona/2007/05/the-healing-power-of-forgiveness?lang=eng",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "category": "Faith",
-    "image": "https://picsum.photos/id/122/400/250",
+    "image": "images/teaching-9.webp",
     "title": "Pray Always",
     "description": "Prayer becomes more meaningful as we counsel with the Lord in all of our doings, as we express heartfelt gratitude, and as we pray for others.",
     "link": "https://www.churchofjesuschrist.org/study/general-conference/2008/10/pray-always?lang=eng",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "category": "Healing",
-    "image": "https://picsum.photos/id/365/400/250",
+    "image": "images/teaching-4.webp",
     "title": "The Gift of Compassion",
     "description": "Navigating difficult emotional seasons by extending grace to partners, children, and yourself.",
     "link": "https://www.churchofjesuschrist.org/study/liahona/2007/03/the-gift-of-compassion?lang=eng",
