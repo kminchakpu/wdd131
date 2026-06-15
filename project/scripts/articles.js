@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("featured-articles-container");
 
-    // 1. Storage Tracking Function
+    // Storage Tracking Function
     function updatePageTracking() {
         const currentViewsRaw = localStorage.getItem("articlesPageViews");
         let currentViews = 0;
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("articlesPageViews", currentViews.toString());
     }
 
-    // 2. Main Render Engine
+    // Main Render Engine
     function renderAllCards(articles) {
         if (!container) return;
 
@@ -33,10 +33,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     
                     <div class="card-footer">
                         <div class="author-profile">
-                            <img src="${article.authorImage}" alt="${article.authorName}" class="author-avatar" loading="lazy">
-                            <span class="author-name">${article.authorName}</span>
+                            <a href="${article.link}" class="author-link">
+                                <span class="author-name">${article.authorName}</span>
+                            </a>
                         </div>
-                        <a href="${article.link}" class="btn-primary">Read Article</a>
+                        <a href="${article.link}" class="btn-primary">${article.buttonText}</a>
                     </div>
                 </article>
             `;
@@ -45,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         container.innerHTML = cardsHtml;
     }
 
-    // 3. Executing Flow
+    //Executing Flow
     updatePageTracking();
 
     if (container) {

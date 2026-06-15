@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Bloodline | Teachings</title>
-    <meta name="description" content="Strengthening families through faith-based insights on marriage, parenting, youth development, and spiritual growth. Inspired by The Family: A Proclamation to the World.">
+    <title>The Bloodline | Contact Us</title>
+    <meta name="description" content="Strengthening families through faith-based insights on marriage, parenting, and spiritual growth.">
     <meta name="keywords" content="family resources, faith-based family, marriage support, parenting advice, youth development, spiritual growth, family values, The Family Proclamation">
     <meta name="author" content="Kevin Cross Minchakpu">
 
@@ -13,8 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
-    <script src="scripts/teachings.js" type="module"></script>
+ 
     <script src="scripts/navigation.js" defer></script>
+    <script src="contact.js" defer></script>
     </head>
 <body>
 
@@ -38,9 +39,9 @@
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="articles.html">Articles</a>
-            <a href="teachings.html" class="active">Teachings</a>
+            <a href="teachings.html">Teachings</a>
             <a href="doctrines.html">Doctrines</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="active">Contact</a>
         </nav>
 
         <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
@@ -50,18 +51,60 @@
         </button>
     </div>
 </header>
-<main>
-    <section class="teachings-section">
-    <div class="section-header">
-        <h2>Recent Teachings</h2>
-        <p>Read our latest teachings and insights from Prophets and Apostles</p>
-    </div>
 
-    <div id="teachingsGrid" class="teachings-grid"></div>
-</section>
+<main class="contact-page-container">
+        <header class="contact-header">
+            <h1 class="contact-title">Get In Touch</h1>
+            <p class="contact-subtitle">Have a question or want to collaborate? Drop us a line and we'll get back to you as soon as possible.</p>
+        </header>
 
+        <div class="contact-grid">
+            <section class="contact-info-panel">
+                <h2 class="info-panel-title">Our Office</h2>
+                
+                <div class="info-item">
+                    <span class="info-icon" aria-hidden="true">📍</span>
+                    <p class="info-text">#40 Accra Street, Wuse Zone 5<br>Abuja, Nigeria</p>
+                </div>
 
-</main>
+                <div class="info-item">
+                    <span class="info-icon" aria-hidden="true">✉️</span>
+                    <p class="info-text"><a href="mailto:support@thebloodline.org" class="info-link">support@thebloodline.org</a></p>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-icon" aria-hidden="true">📞</span>
+                    <p class="info-text"><a href="tel:+2348068133269" class="info-link">(234) 806-813-3269</a></p>
+                </div>
+            </section>
+
+            <section class="contact-form-panel">
+                <div id="form-feedback-wrapper" class="hidden"></div>
+
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="user-name" class="form-label">Full Name</label>
+                        <input type="text" id="user-name" name="name" class="form-input" required placeholder="Kevin Cross Minchakpu">
+                        <span class="field-error-message" id="name-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-email" class="form-label">Email Address</label>
+                        <input type="email" id="user-email" name="email" class="form-input" required placeholder="kevin@thebloodline.org">
+                        <span class="field-error-message" id="email-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-message" class="form-label">Message</label>
+                        <textarea id="user-message" name="message" class="form-input form-textarea" required placeholder="How can we help you?"></textarea>
+                        <span class="field-error-message" id="message-error"></span>
+                    </div>
+
+                    <button type="submit" class="btn-submit" id="submit-button">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </main>
 
 <footer class="main-footer">
         <div class="container footer-grid">

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "category": "Family Life",
-    "image": "https://picsum.photos/id/1025/400/250",
+    "image": "images/family5.webp",
     "title": "Families Can Be Together Forever",
     "description": "Successful marriages and families are established and maintained on principles of faith, prayer, repentance, and love.",
     "link": "https://www.churchofjesuschrist.org/welcome/families-together-forever?lang=eng",
@@ -33,270 +33,270 @@
     "id": 4,
     "category": "Wellness",
     "image": "https://picsum.photos/id/433/400/250",
-    "title": "Wholesome Recreation",
+    "title": "Wholesome Activities Help Families be Successful",
     "description": "Why making time for play, outdoor adventures, and shared hobbies is vital for a healthy family dynamic.",
-    "link": "article-4.html",
-    "buttonText": "View Guide",
-    "authorName": "Michael Chang"
+    "link": "https://news-hk.churchofjesuschrist.org/eng/article/wholesome-activities-help-families-be-successful",
+    "buttonText": "Read Article",
+    "authorName": "The Church of Jesus Christ of Latter-day Saints"
   },
   {
     "id": 5,
     "category": "Communication",
     "image": "https://picsum.photos/id/64/400/250",
-    "title": "Communication Secrets",
-    "description": "How active listening and validation transform standard daily check-ins into deeper emotional connections.",
-    "link": "article-5.html",
+    "title": "Family Communications",
+    "description": "To be effective, family communication must be an exchange of feelings and information. It must be a two-way process. It must be honest and open. It must be loving and respectful.",
+    "link": "https://www.churchofjesuschrist.org/study/ensign/1976/05/family-communications?lang=eng",
     "buttonText": "Read More",
-    "authorName": "Emily Watson"
+    "authorName": "Elder Marvin J. Ashton"
   },
   {
     "id": 6,
     "category": "Faith",
     "image": "https://picsum.photos/id/122/400/250",
-    "title": "Establishing Daily Prayer",
-    "description": "A look into how shared quiet moments of gratitude bring peace and alignment to hectic households.",
-    "link": "article-6.html",
+    "title": "Pray Always",
+    "description": "Prayer becomes more meaningful as we counsel with the Lord in all of our doings, as we express heartfelt gratitude, and as we pray for others.",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2008/10/pray-always?lang=eng",
     "buttonText": "Learn More",
-    "authorName": "David Miller"
+    "authorName": "Elder David A. Bednar"
   },
   {
     "id": 7,
     "category": "Relationships",
     "image": "https://picsum.photos/id/319/400/250",
-    "title": "Cultivating Mutual Respect",
+    "title": "Cornerstones of a Happy Home",
     "description": "Honoring individual differences within a family system while maintaining a unified, supportive core.",
-    "link": "article-7.html",
+    "link": "https://www.churchofjesuschrist.org/study/manual/eternal-marriage-student-manual/foundations-for-eternal-marriage/cornerstones-of-a-happy-home?lang=eng",
     "buttonText": "Read Article",
-    "authorName": "Jessica Taylor"
+    "authorName": "President Gordon B. Hinckley"
   },
   {
     "id": 8,
     "category": "Healing",
     "image": "https://picsum.photos/id/365/400/250",
-    "title": "The Art of Compassion",
+    "title": "The Gift of Compassion",
     "description": "Navigating difficult emotional seasons by extending grace to partners, children, and yourself.",
-    "link": "article-8.html",
-    "buttonText": "Explore",
-    "authorName": "Robert Vance"
+    "link": "https://www.churchofjesuschrist.org/study/liahona/2007/03/the-gift-of-compassion?lang=eng",
+    "buttonText": "Read Article",
+    "authorName": "President Thomas S. Monson"
   },
   {
     "id": 9,
     "category": "Family Life",
     "image": "https://picsum.photos/id/532/400/250",
-    "title": "Working Together",
+    "title": "Working Hard, Working Together",
     "description": "Teaching responsibility and teamwork through shared household goals, chores, and projects.",
-    "link": "article-9.html",
-    "buttonText": "View Tips",
-    "authorName": "Linda Groff"
+    "link": "https://www.churchofjesuschrist.org/study/ensign/2012/02/working-hard-working-together?lang=eng",
+    "buttonText": "Read Article",
+    "authorName": "Tory Anderson"
   },
   {
     "id": 10,
     "category": "Faith",
     "image": "https://picsum.photos/id/541/400/250",
-    "title": "Nurturing Faith Daily",
+    "title": "Nurturing Our New Lives",
     "description": "Simple practices to weave core values into the everyday rhythms of family life and routines.",
-    "link": "article-10.html",
+    "link": "https://www.churchofjesuschrist.org/study/liahona/2014/02/nurturing-our-new-lives?lang=eng",
     "buttonText": "Learn More",
-    "authorName": "Thomas Aquin"
+    "authorName": "Eve Hart"
   },
   {
     "id": 11,
     "category": "Communication",
     "image": "https://picsum.photos/id/619/400/250",
-    "title": "Navigating Conflict",
+    "title": "The Key to Navigating Conflict",
     "description": "Turning disagreements into opportunities for growth using healthy communication boundaries.",
-    "link": "article-11.html",
+    "link": "https://www.churchofjesuschrist.org/inspiration/the-key-to-navigating-conflict?lang=eng",
     "buttonText": "Read Article",
-    "authorName": "Marcus Aurel"
+    "authorName": "Maryssa Dennis"
   },
   {
     "id": 12,
     "category": "Family Life",
     "image": "https://picsum.photos/id/652/400/250",
-    "title": "The Power of Rituals",
-    "description": "From Sunday dinners to annual road trips, discover why shared traditions anchor children.",
-    "link": "article-12.html",
-    "buttonText": "Explore",
-    "authorName": "Elena Rostova"
+    "title": "The Power of Covenants",
+    "description": "In times of distress, let your covenants be paramount and let your obedience be exact.",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2009/04/the-power-of-covenants?lang=eng",
+    "buttonText": "Read the Message",
+    "authorName": "Elder D. Todd Christofferson"
   },
   {
     "id": 13,
     "category": "Wellness",
     "image": "https://picsum.photos/id/659/400/250",
-    "title": "Expressing Gratitude",
+    "title": "The Divine Gift of Gratitude",
     "description": "How a simple daily habit of thanking family members shifts the entire culture of a home.",
-    "link": "article-13.html",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2010/10/the-divine-gift-of-gratitude?lang=eng",
     "buttonText": "Read More",
-    "authorName": "Arthur Pendel"
+    "authorName": "President Thomas S. Monson"
   },
   {
     "id": 14,
     "category": "Parenting",
     "image": "https://picsum.photos/id/823/400/250",
-    "title": "Parenting with Patience",
+    "title": "Things Learned as a Mother",
     "description": "Practical strategies for remaining calm and centered when children push structural boundaries.",
-    "link": "article-14.html",
-    "buttonText": "View Guide",
-    "authorName": "Susan Choi"
+    "link": "https://www.churchofjesuschrist.org/study/ensign/2001/03/things-learned-as-a-mother?lang=eng",
+    "buttonText": "Read Article",
+    "authorName": "The Church of Jesus Christ of Latter-day Saints"
   },
   {
     "id": 15,
     "category": "Wellness",
     "image": "https://picsum.photos/id/835/400/250",
-    "title": "Slowing Down Together",
-    "description": "In a hyper-connected digital world, protecting intentional, unscheduled time for your loved ones is key.",
-    "link": "article-15.html",
-    "buttonText": "Learn More",
-    "authorName": "Brian Tracy"
+    "title": "Of Things That Matter Most",
+    "description": "If life and its rushed pace and many stresses have made it difficult for you to feel like rejoicing, then perhaps now is a good time to refocus on what matters most.",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2010/10/of-things-that-matter-most?lang=eng",
+    "buttonText": "Read Article",
+    "authorName": "President Dieter F. Uchtdorf"
   },
   {
     "id": 16,
     "category": "Family Life",
     "image": "https://picsum.photos/id/839/400/250",
-    "title": "The Value of Hard Work",
-    "description": "Helping youth build grit and long-term confidence by tackling difficult tasks alongside mentors.",
-    "link": "article-16.html",
+    "title": "Teaching Families the Value of Work and Responsibility",
+    "description": "The purpose of this lesson is to help us teach family members to respect work and feel responsible toward the family.",
+    "link": "https://www.churchofjesuschrist.org/study/manual/the-latter-day-saint-woman-basic-manual-for-women-part-a/personal-and-family-development/lesson-29-teaching-families-the-value-of-work-and-responsibility?lang=eng",
     "buttonText": "Read Article",
-    "authorName": "Will Smith"
+    "authorName": "The Church of Jesus Christ of Latter-day Saints"
   },
   {
     "id": 17,
     "category": "Healing",
     "image": "https://picsum.photos/id/904/400/250",
-    "title": "Kindness as a Habit",
-    "description": "Small, deliberate acts of service within the household that dramatically lower daily friction.",
-    "link": "article-17.html",
-    "buttonText": "Explore",
-    "authorName": "Anna Karenina"
+    "title": "Kindness: Something the Whole World Needs",
+    "description": "By being kind, we can help in our own small way to change the world for the better.",
+    "link": "https://www.churchofjesuschrist.org/study/liahona/2021/08/digital-only-young-adults/kindness-something-the-whole-world-needs?lang=eng",
+    "buttonText": "Read Article",
+    "authorName": "Eric B. Murdock"
   },
   {
     "id": 18,
     "category": "Parenting",
     "image": "https://picsum.photos/id/972/400/250",
-    "title": "Emotional Resilience",
+    "title": "Emotional Resilience Helps Us to Prepare for Emergencies",
     "description": "Preparing the next generation to face societal pressures with confidence, clarity, and safety.",
-    "link": "article-18.html",
-    "buttonText": "View Tips",
-    "authorName": "Chris Evans"
+    "link": "https://www.churchofjesuschrist.org/study/manual/emergency-preparedness/03-building-resilience/09-being-prepared-through-emotional-resilience?lang=eng",
+    "buttonText": "Read Article",
+    "authorName": "The Church of Jesus Christ of Latter-day Saints"
   },
   {
     "id": 19,
     "category": "Wellness",
     "image": "https://picsum.photos/id/982/400/250",
-    "title": "Unplugging the Home",
-    "description": "Setting healthy technology boundaries to foster real, eye-to-eye human engagement at dinner.",
-    "link": "article-19.html",
+    "title": "Parenting, Unplugged",
+    "description": "By striving to more fully and more frequently behold our little ones, we will nourish our children’s sense of worth, enrich our relationships with one another, and enjoy more of those sacred moments when we see into the hearts of our children.",
+    "link": "https://www.churchofjesuschrist.org/study/ensign/2014/06/parenting-unplugged?lang=eng",
     "buttonText": "Read More",
-    "authorName": "Steve Jobs"
+    "authorName": "Jan Pinborough"
   },
   {
     "id": 20,
     "category": "Healing",
     "image": "https://picsum.photos/id/1011/400/250",
-    "title": "The Power of Apologies",
+    "title": "Repentance & Forgiveness in Marriage",
     "description": "Why saying 'I am sorry' breaks down walls and builds foundational trust across generations.",
-    "link": "article-20.html",
+    "link": "https://www.churchofjesuschrist.org/study/ensign/2011/09/repentance-and-forgiveness-in-marriage?lang=eng",
     "buttonText": "Learn More",
-    "authorName": "Peter Parker"
+    "authorName": "Richard Miller"
   },
   {
     "id": 21,
     "category": "Wellness",
     "image": "https://picsum.photos/id/1015/400/250",
-    "title": "Sustaining Joy Longer",
-    "description": "Finding celebration in the ordinary, mundane milestones of growing up and growing older.",
-    "link": "article-21.html",
+    "title": "That Your Joy Might Be Full",
+    "description": "Jesus Christ is the source of all healing, peace, and eternal progress. He is the source of all joy. When we come unto Him, we can find joy in this life and in the life to come.",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/that-your-joy-might-be-full?lang=eng",
     "buttonText": "Read Article",
-    "authorName": "Lucy Pevensie"
+    "authorName": "Jean B. Bingham"
   },
   {
     "id": 22,
     "category": "Family Life",
     "image": "https://picsum.photos/id/1016/400/250",
-    "title": "Generational Wisdom",
-    "description": "Bridging the gap between grandparents and children to pass down critical heritage and history.",
-    "link": "article-22.html",
-    "buttonText": "Explore",
-    "authorName": "Grandpa Joe"
+    "title": "Reverence for God Is the Beginning of Wisdom",
+    "description": "The wisdom of the world is most valuable when it humbly bows to the wisdom of God.",
+    "link": "https://www.churchofjesuschrist.org/study/ensign/2013/01/reverence-for-god-is-the-beginning-of-wisdom?lang=eng",
+    "buttonText": "Read the Message",
+    "authorName": "Elder Neil L. Andersen"
   },
   {
     "id": 23,
     "category": "Family Life",
     "image": "https://picsum.photos/id/1018/400/250",
-    "title": "Financial Stewardship",
-    "description": "Teaching children basic economic wisdom and budgeting as a unified family unit project.",
-    "link": "article-23.html",
-    "buttonText": "View Guide",
-    "authorName": "Warren B."
+    "title": "How to Be Financially Prepared",
+    "description": "Financial preparedness requires consistent effort and planning. Whether you are at the beginning of your financial journey or looking to improve your current finances, taking steps to save money and prepare for the future can help you experience peace and financial freedom.",
+    "link": "https://www.churchofjesuschrist.org/life/finances/being-financially-prepared?lang=eng",
+    "buttonText": "Read Article",
+    "authorName": "The Church of Jesus Christ of Latter-day Saints"
   },
   {
     "id": 24,
     "category": "Wellness",
     "image": "https://picsum.photos/id/1019/400/250",
-    "title": "Creating Safe Spaces",
-    "description": "Ensuring your home environment is a sanctuary from external chaos, stress, and anxiety.",
+    "title": "Creating Places of Security",
+    "description": "A righteous woman’s strength and influence are great. Her opportunities to create safe havens for struggling souls are abundant.",
     "link": "article-24.html",
-    "buttonText": "Learn More",
-    "authorName": "Bruce Wayne"
+    "buttonText": "Read More",
+    "authorName": "Virginia U. Jensen"
   },
   {
     "id": 25,
     "category": "Parenting",
     "image": "https://picsum.photos/id/1024/400/250",
-    "title": "The Role of Mentorship",
-    "description": "How extended family members and community leaders add layers of support for developing youth.",
-    "link": "article-25.html",
+    "title": "Fatherhood, an Eternal Calling",
+    "description": "May we heed the voice of the prophets, who, from the beginning of time, have warned us about the importance of fathers in the home.",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2004/04/fatherhood-an-eternal-calling?lang=eng",
     "buttonText": "Read Article",
-    "authorName": "Diana Prince"
+    "authorName": "Elder L. Tom Perry"
   },
   {
     "id": 26,
     "category": "Relationships",
     "image": "https://picsum.photos/id/1035/400/250",
-    "title": "Healthy Boundaries",
-    "description": "Balancing close-knit family loyalty with the healthy space required for personal development.",
-    "link": "article-26.html",
-    "buttonText": "Explore",
-    "authorName": "Clark Kent"
+    "title": "Finding a Safe Harbor",
+    "description": "In our own storms in life, the Savior is our solace and our sanctuary. If we seek peace, we must come unto Him.",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2000/04/finding-a-safe-harbor?lang=eng",
+    "buttonText": "Read More",
+    "authorName": "Elder Joseph B. Wirthlin"
   },
   {
     "id": 27,
     "category": "Relationships",
     "image": "https://picsum.photos/id/1039/400/250",
-    "title": "Celebrating Success",
-    "description": "Why showing up for each other's small wins builds deep, lifetime psychological security.",
-    "link": "article-27.html",
+    "title": "Small and Simple Things",
+    "description": "We need to be reminded that in total and over a significant period of time, seemingly small things bring to pass great things.",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/small-and-simple-things?lang=eng",
     "buttonText": "View Tips",
-    "authorName": "Barry Allen"
+    "authorName": "President Dallin H. Oaks"
   },
   {
     "id": 28,
     "category": "Family Life",
     "image": "https://picsum.photos/id/1041/400/250",
-    "title": "Service Beyond Home",
-    "description": "Strengthening family bonds by stepping outside your doors to serve communities in need.",
-    "link": "article-28.html",
+    "title": "Service, a Divine Quality",
+    "description": "Those who serve will strive to ennoble, build, and lift their fellowmen. They will be more likely to be forgiving, patient, and kind. They will be more likely to be humble and to have a greater capacity to love.",
+    "link": "https://www.churchofjesuschrist.org/study/general-conference/2008/04/service-a-divine-quality?lang=eng",
     "buttonText": "Read More",
-    "authorName": "Tony Stark"
+    "authorName": "Elder Carlos H. Amado"
   },
   {
     "id": 29,
     "category": "Communication",
     "image": "https://picsum.photos/id/1042/400/250",
-    "title": "Active Listening",
-    "description": "Giving your loved ones your full undivided attention without immediately trying to fix their problems.",
-    "link": "article-29.html",
-    "buttonText": "Learn More",
-    "authorName": "Natasha R."
+    "title": "How to Be an Active Listener",
+    "description": "Perhaps even more important than speaking is listening. … [President] Russell Nelson told me once that one of the first rules of medical inquiry is “Ask the patient where it hurts.",
+    "link": "https://www.churchofjesuschrist.org/study/manual/answering-my-gospel-questions-teacher-material/4-appendix-a/21-microtraining-5?lang=eng",
+    "buttonText": "Read More",
+    "authorName": "The Church of Jesus Christ of Latter-day Saints"
   },
   {
     "id": 30,
     "category": "Faith",
     "image": "https://picsum.photos/id/1069/400/250",
-    "title": "An Enduring Legacy",
-    "description": "Focusing on the long-term patterns that ensure your family principles thrive for generations to come.",
-    "link": "article-30.html",
+    "title": "Endure and Be Lifted Up",
+    "description": "The Lord teaches over and over that we are to endure to the end.",
+    "link": "https://www.churchofjesuschrist.org/study/manual/eternal-marriage-student-manual/commitment/endure-and-be-lifted-up?lang=eng",
     "buttonText": "Final Chapter",
-    "authorName": "Wanda M."
+    "authorName": "Elder Russell M. Nelson"
   }
 ]
