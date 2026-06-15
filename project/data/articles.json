@@ -5,32 +5,29 @@
     "image": "https://picsum.photos/id/1025/400/250",
     "title": "Families Can Be Together Forever",
     "description": "Successful marriages and families are established and maintained on principles of faith, prayer, repentance, and love.",
-    "link": "article-1.html",
+    "link": "https://www.churchofjesuschrist.org/welcome/families-together-forever?lang=eng",
     "buttonText": "Learn More",
-    "authorName": "Jane Doe",
-    "authorImage": "https://i.pravatar.cc/150?img=32"
+    "authorName": "The Church of Jesus Christ of Latter-day Saints"
   },
   {
     "id": 2,
     "category": "Relationships",
     "image": "https://picsum.photos/id/1062/400/250",
-    "title": "Building Strong Foundations",
-    "description": "Discover the core principles that keep modern relationships resilient, respectful, and deeply compassionate over time.",
-    "link": "article-2.html",
+    "title": "A Sure Foundation",
+    "description": "“I challenge each of you to build strong foundations by learning about our Savior and praying for help and ways to know Him better. Follow His example and keep His commandments, and you will be blessed with a strong testimony of Him.”",
+    "link": "https://www.churchofjesuschrist.org/study/new-era/2012/01/a-sure-foundation?lang=eng",
     "buttonText": "Read Article",
-    "authorName": "John Smith",
-    "authorImage": "https://i.pravatar.cc/150?img=12"
+    "authorName": "Afton Nelson"
   },
   {
     "id": 3,
     "category": "Healing",
     "image": "https://picsum.photos/id/364/400/250",
-    "title": "The Power of Forgiveness",
+    "title": "The Healing Power of Forgiveness",
     "description": "Learning to let go of friction within the home is the secret glue that binds generations together.",
-    "link": "article-3.html",
-    "buttonText": "Explore",
-    "authorName": "Sarah Jenkins",
-    "authorImage": "https://i.pravatar.cc/150?img=47"
+    "link": "https://www.churchofjesuschrist.org/study/liahona/2007/05/the-healing-power-of-forgiveness?lang=eng",
+    "buttonText": "Read the Message",
+    "authorName": "President James E. Faust"
   },
   {
     "id": 4,
@@ -40,8 +37,7 @@
     "description": "Why making time for play, outdoor adventures, and shared hobbies is vital for a healthy family dynamic.",
     "link": "article-4.html",
     "buttonText": "View Guide",
-    "authorName": "Michael Chang",
-    "authorImage": "https://i.pravatar.cc/150?img=11"
+    "authorName": "Michael Chang"
   },
   {
     "id": 5,
@@ -51,8 +47,7 @@
     "description": "How active listening and validation transform standard daily check-ins into deeper emotional connections.",
     "link": "article-5.html",
     "buttonText": "Read More",
-    "authorName": "Emily Watson",
-    "authorImage": "https://i.pravatar.cc/150?img=5"
+    "authorName": "Emily Watson"
   },
   {
     "id": 6,
@@ -62,8 +57,7 @@
     "description": "A look into how shared quiet moments of gratitude bring peace and alignment to hectic households.",
     "link": "article-6.html",
     "buttonText": "Learn More",
-    "authorName": "David Miller",
-    "authorImage": "https://i.pravatar.cc/150?img=13"
+    "authorName": "David Miller"
   },
   {
     "id": 7,
@@ -73,8 +67,7 @@
     "description": "Honoring individual differences within a family system while maintaining a unified, supportive core.",
     "link": "article-7.html",
     "buttonText": "Read Article",
-    "authorName": "Jessica Taylor",
-    "authorImage": "https://i.pravatar.cc/150?img=9"
+    "authorName": "Jessica Taylor"
   },
   {
     "id": 8,
@@ -84,8 +77,7 @@
     "description": "Navigating difficult emotional seasons by extending grace to partners, children, and yourself.",
     "link": "article-8.html",
     "buttonText": "Explore",
-    "authorName": "Robert Vance",
-    "authorImage": "https://i.pravatar.cc/150?img=14"
+    "authorName": "Robert Vance"
   },
   {
     "id": 9,
@@ -95,8 +87,7 @@
     "description": "Teaching responsibility and teamwork through shared household goals, chores, and projects.",
     "link": "article-9.html",
     "buttonText": "View Tips",
-    "authorName": "Linda Groff",
-    "authorImage": "https://i.pravatar.cc/150?img=22"
+    "authorName": "Linda Groff"
   },
   {
     "id": 10,
@@ -106,8 +97,7 @@
     "description": "Simple practices to weave core values into the everyday rhythms of family life and routines.",
     "link": "article-10.html",
     "buttonText": "Learn More",
-    "authorName": "Thomas Aquin",
-    "authorImage": "https://i.pravatar.cc/150?img=59"
+    "authorName": "Thomas Aquin"
   },
   {
     "id": 11,
@@ -117,8 +107,7 @@
     "description": "Turning disagreements into opportunities for growth using healthy communication boundaries.",
     "link": "article-11.html",
     "buttonText": "Read Article",
-    "authorName": "Marcus Aurel",
-    "authorImage": "https://i.pravatar.cc/150?img=60"
+    "authorName": "Marcus Aurel"
   },
   {
     "id": 12,
@@ -128,8 +117,7 @@
     "description": "From Sunday dinners to annual road trips, discover why shared traditions anchor children.",
     "link": "article-12.html",
     "buttonText": "Explore",
-    "authorName": "Elena Rostova",
-    "authorImage": "https://i.pravatar.cc/150?img=34"
+    "authorName": "Elena Rostova"
   },
   {
     "id": 13,
@@ -139,8 +127,7 @@
     "description": "How a simple daily habit of thanking family members shifts the entire culture of a home.",
     "link": "article-13.html",
     "buttonText": "Read More",
-    "authorName": "Arthur Pendel",
-    "authorImage": "https://i.pravatar.cc/150?img=68"
+    "authorName": "Arthur Pendel"
   },
   {
     "id": 14,
@@ -150,8 +137,7 @@
     "description": "Practical strategies for remaining calm and centered when children push structural boundaries.",
     "link": "article-14.html",
     "buttonText": "View Guide",
-    "authorName": "Susan Choi",
-    "authorImage": "https://i.pravatar.cc/150?img=41"
+    "authorName": "Susan Choi"
   },
   {
     "id": 15,
@@ -161,8 +147,7 @@
     "description": "In a hyper-connected digital world, protecting intentional, unscheduled time for your loved ones is key.",
     "link": "article-15.html",
     "buttonText": "Learn More",
-    "authorName": "Brian Tracy",
-    "authorImage": "https://i.pravatar.cc/150?img=69"
+    "authorName": "Brian Tracy"
   },
   {
     "id": 16,
@@ -172,8 +157,7 @@
     "description": "Helping youth build grit and long-term confidence by tackling difficult tasks alongside mentors.",
     "link": "article-16.html",
     "buttonText": "Read Article",
-    "authorName": "Will Smith",
-    "authorImage": "https://i.pravatar.cc/150?img=71"
+    "authorName": "Will Smith"
   },
   {
     "id": 17,
@@ -183,8 +167,7 @@
     "description": "Small, deliberate acts of service within the household that dramatically lower daily friction.",
     "link": "article-17.html",
     "buttonText": "Explore",
-    "authorName": "Anna Karenina",
-    "authorImage": "https://i.pravatar.cc/150?img=45"
+    "authorName": "Anna Karenina"
   },
   {
     "id": 18,
@@ -194,8 +177,7 @@
     "description": "Preparing the next generation to face societal pressures with confidence, clarity, and safety.",
     "link": "article-18.html",
     "buttonText": "View Tips",
-    "authorName": "Chris Evans",
-    "authorImage": "https://i.pravatar.cc/150?img=75"
+    "authorName": "Chris Evans"
   },
   {
     "id": 19,
@@ -205,8 +187,7 @@
     "description": "Setting healthy technology boundaries to foster real, eye-to-eye human engagement at dinner.",
     "link": "article-19.html",
     "buttonText": "Read More",
-    "authorName": "Steve Jobs",
-    "authorImage": "https://i.pravatar.cc/150?img=78"
+    "authorName": "Steve Jobs"
   },
   {
     "id": 20,
@@ -216,8 +197,7 @@
     "description": "Why saying 'I am sorry' breaks down walls and builds foundational trust across generations.",
     "link": "article-20.html",
     "buttonText": "Learn More",
-    "authorName": "Peter Parker",
-    "authorImage": "https://i.pravatar.cc/150?img=81"
+    "authorName": "Peter Parker"
   },
   {
     "id": 21,
@@ -227,8 +207,7 @@
     "description": "Finding celebration in the ordinary, mundane milestones of growing up and growing older.",
     "link": "article-21.html",
     "buttonText": "Read Article",
-    "authorName": "Lucy Pevensie",
-    "authorImage": "https://i.pravatar.cc/150?img=49"
+    "authorName": "Lucy Pevensie"
   },
   {
     "id": 22,
@@ -238,8 +217,7 @@
     "description": "Bridging the gap between grandparents and children to pass down critical heritage and history.",
     "link": "article-22.html",
     "buttonText": "Explore",
-    "authorName": "Grandpa Joe",
-    "authorImage": "https://i.pravatar.cc/150?img=82"
+    "authorName": "Grandpa Joe"
   },
   {
     "id": 23,
@@ -249,8 +227,7 @@
     "description": "Teaching children basic economic wisdom and budgeting as a unified family unit project.",
     "link": "article-23.html",
     "buttonText": "View Guide",
-    "authorName": "Warren B.",
-    "authorImage": "https://i.pravatar.cc/150?img=84"
+    "authorName": "Warren B."
   },
   {
     "id": 24,
@@ -260,8 +237,7 @@
     "description": "Ensuring your home environment is a sanctuary from external chaos, stress, and anxiety.",
     "link": "article-24.html",
     "buttonText": "Learn More",
-    "authorName": "Bruce Wayne",
-    "authorImage": "https://i.pravatar.cc/150?img=90"
+    "authorName": "Bruce Wayne"
   },
   {
     "id": 25,
@@ -271,8 +247,7 @@
     "description": "How extended family members and community leaders add layers of support for developing youth.",
     "link": "article-25.html",
     "buttonText": "Read Article",
-    "authorName": "Diana Prince",
-    "authorImage": "https://i.pravatar.cc/150?img=53"
+    "authorName": "Diana Prince"
   },
   {
     "id": 26,
@@ -282,8 +257,7 @@
     "description": "Balancing close-knit family loyalty with the healthy space required for personal development.",
     "link": "article-26.html",
     "buttonText": "Explore",
-    "authorName": "Clark Kent",
-    "authorImage": "https://i.pravatar.cc/150?img=91"
+    "authorName": "Clark Kent"
   },
   {
     "id": 27,
@@ -293,8 +267,7 @@
     "description": "Why showing up for each other's small wins builds deep, lifetime psychological security.",
     "link": "article-27.html",
     "buttonText": "View Tips",
-    "authorName": "Barry Allen",
-    "authorImage": "https://i.pravatar.cc/150?img=92"
+    "authorName": "Barry Allen"
   },
   {
     "id": 28,
@@ -304,8 +277,7 @@
     "description": "Strengthening family bonds by stepping outside your doors to serve communities in need.",
     "link": "article-28.html",
     "buttonText": "Read More",
-    "authorName": "Tony Stark",
-    "authorImage": "https://i.pravatar.cc/150?img=93"
+    "authorName": "Tony Stark"
   },
   {
     "id": 29,
@@ -315,8 +287,7 @@
     "description": "Giving your loved ones your full undivided attention without immediately trying to fix their problems.",
     "link": "article-29.html",
     "buttonText": "Learn More",
-    "authorName": "Natasha R.",
-    "authorImage": "https://i.pravatar.cc/150?img=58"
+    "authorName": "Natasha R."
   },
   {
     "id": 30,
@@ -326,7 +297,6 @@
     "description": "Focusing on the long-term patterns that ensure your family principles thrive for generations to come.",
     "link": "article-30.html",
     "buttonText": "Final Chapter",
-    "authorName": "Wanda M.",
-    "authorImage": "https://i.pravatar.cc/150?img=57"
+    "authorName": "Wanda M."
   }
 ]
